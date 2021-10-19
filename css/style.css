@@ -1,0 +1,46 @@
+/* Importing google fonts:  Lobster and Lato*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&display=swap");
+
+/* Components */
+
+@import url("components/headings.css");
+@import url("components/list-image.css");
+@import url("components/banner.css");
+@import url("components/buttons.css");
+@import url("components/avatar.css");
+
+
+body {
+font-family: lato, sans-serif;
+color: rgb(0, 0, 0);
+font-size: 12px;
+text-align: justify;
+background-color: white;
+}
+
+h1, h2, h3 {
+	font-family: lobster, cursive;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 25px;
+}
+h3 {
+	font-size: 14px;
+}
+
+.banner {
+	background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url('../images/background.jpg'); 
+}
+	
+
+
+
+
+
+

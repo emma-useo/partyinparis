@@ -1,0 +1,27 @@
+
+
+#text-center {
+	text-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.img-align {
+	border-radius:50%;
+ 	width:180px;
+ 	display: inline;
+}
+
+.img-circle {
+	width: 180px;
+	border-radius: 20%;
+	float: left;
+	align-items: center;
+	justify-content: space-between;
+	justify-content: space-around;
+	padding: 20px;
+}
+
